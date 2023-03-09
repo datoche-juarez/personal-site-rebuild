@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import { Example } from "../components/exampleButtons";
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -37,6 +39,9 @@ export default function Home() {
               />
             </a>
           </div>
+        </div>
+        <div>
+          <Example />
         </div>
 
         <div className={styles.center}>
