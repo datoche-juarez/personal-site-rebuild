@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
 import { Example } from "../components/exampleButtons";
+import { Navbar } from "../components/navbar";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <div>
+          <Navbar />
+        </div>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
