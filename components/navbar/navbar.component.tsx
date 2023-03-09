@@ -82,7 +82,7 @@ import {
               alignItems="center"
               justifyContent="flex-start"
             >
-              <Box bg="primary.main" borderRadius="10" w="100px" h="100px"></Box>
+              <Box bg="#dc3545" borderRadius="10" w="100px" h="100px"></Box>
               <Link href="learnMore">
                 <Button
                   color="warning.600"
